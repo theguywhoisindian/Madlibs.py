@@ -1,0 +1,19 @@
+adjective = input("Adjective:")
+adjective2 = input("Adjective2:")
+type_of_bird = input("type of bird:")
+room_of_house = input("room of house:")
+verb_pst = input("verb past tense:")
+verb = input("verb:")
+name = input("relatives name:")
+noun = input("noun1:")
+liquid = input("type of liquid:")
+bodypart = input("body part:")
+pluralnoun = input("plural noun:")
+verbing = input("Verb ending in -ing:")
+n1 = input("noun2 :")
+
+
+Sentence = "It was a " + adjective + " cold november day. I woke up to the " + adjective2 + " the smell of " + type_of_bird + " roasting in the " + room_of_house + " downstairs.I " + verb_pst + " down the stairs to see if I could help" + verb + " the dinner. My mom said ,see if " + name + " needs a fresh" + noun + ". So I carried a tray of glasses full of " + liquid + " into the living room. When I got there, I  could not belive my " + bodypart + ". There were " + pluralnoun + verbing + " on the " + n1 + "!"
+
+
+print(Sentence)
